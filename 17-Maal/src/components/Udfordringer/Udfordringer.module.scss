@@ -46,14 +46,12 @@
 
     .section1 {
         display: grid;
+        width: 100%;
         grid-template-columns: 1fr 1fr;
-        gap: 1rem;
-        overflow: hidden;
         // grid-auto-columns: column;
-        margin-bottom: 2rem;
-
+       
         article {
-            display: flex;
+            width: 100%;
 
         }
 
