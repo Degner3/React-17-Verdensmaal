@@ -39,14 +39,14 @@
 
     }
 
-    h4 {
+    // h4 {
 
 
-    }
+    // }
 
     .section1 {
         display: grid;
-        grid-template-columns: 60% 1fr;
+        grid-template-columns: 1fr 1fr;
         gap: 1rem;
         overflow: hidden;
         // grid-auto-columns: column;
@@ -54,7 +54,6 @@
 
         article {
             display: flex;
-            // flex-direction: column;
 
         }
 
@@ -64,11 +63,11 @@
 
     }
 
-    .section2 {
+    // .section2 {
 
-    }
+    // }
 
-    .section3 {
+    // .section3 {
 
-    }
+    // }
 }
