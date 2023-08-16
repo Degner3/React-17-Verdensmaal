@@ -12,7 +12,7 @@ export function Header() {
                 <img src={ColorWheel} alt="Color Wheel" />
                 <div>
                     <h1>THE GLOBAL GOALS</h1>
-                    <p>For sustainable Developement</p>
+                    <h2>For sustainable Developement</h2>
                 </div>
             </div>
         </header>

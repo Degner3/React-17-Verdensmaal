@@ -29,7 +29,7 @@ import Goal18 from "../../assets/Image/Goals/Goal18.png"
 export function Delmaalene() {
 
     return (
-        <section className={style.delmaalene}>
+        <section id="delmaalene" className={style.delmaalene}>
             <figure>
                 <figcaption>
                     <h3>DELMÅLENE</h3>

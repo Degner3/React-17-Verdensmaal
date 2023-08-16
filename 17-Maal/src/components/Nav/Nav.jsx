@@ -5,14 +5,12 @@ export function Nav() {
 
     return (
         <nav className={style.nav}>
-            <div className={style.navwrapper}>
                 <ul>
-                    <li><a href="#">VERDENSMÅLENE</a></li>
-                    <li><a href="#">DELMÅLENE</a></li>
-                    <li><a href="#">UDFORDRINGER</a></li>
+                    <li><a href="#verdensmaal">VERDENSMÅLENE</a></li>
+                    <li><a href="#delmaalene">DELMÅLENE</a></li>
+                    <li><a href="#udfordringer">UDFORDRINGER</a></li>
                     <li><a href="#">KONTAKT</a></li>
                 </ul>
-            </div>
         </nav>
     )
 }
