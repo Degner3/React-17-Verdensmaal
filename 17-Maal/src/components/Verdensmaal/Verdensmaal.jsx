@@ -3,7 +3,7 @@ import style from "./Verdensmaal.module.scss"
 export function Verdensmaal() {
 
     return ( 
-        <section className={style.Verdensmaal}>
+        <section className={style.verdensmaal}>
             <h2>DE 17 VERDENSMÅL</h2>
             <p>På FN topmødet i New York i 2015 vedtog verdens stats- og regeringsledere en hidtil uset ambitiøs og samfundsforandrende udviklingsdagsorden, også kaldt 2030 dagsordenen.</p>
             <p>På FN topmødet i New York i 2015 vedtog verdens stats- og regeringsledere en hidtil uset ambitiøs og samfundsforandrende udviklingsdagsorden, også kaldt 2030 dagsordenen.</p>

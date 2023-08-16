@@ -1,0 +1,74 @@
+.delmaalene {
+    max-width: 1200px;
+    margin: 0 auto;
+
+
+    figure {
+
+        figcaption {
+
+            h3 {
+                margin-left: 0.5rem;
+                color: #6699cc;
+                font-family: 'Roboto Condensed', sans-serif;
+                font-weight: 500;
+                font-size: 2.5rem;
+            }
+
+            h5 {
+                text-align: right;
+
+                a {
+                    font-family: 'Roboto Condensed', sans-serif;
+                    font-size: 1.5rem;
+                    font-weight: 400;
+                    color: #333;
+
+                }
+            }
+
+            p {
+                margin-left: 0.5rem;
+                margin-top: 0.5rem;
+                margin-bottom: 1rem;
+                text-align: justify;
+                color: #333;
+                font-family: 'Roboto Condensed', sans-serif;
+                font-weight: 400;
+                font-size: 1.5rem;
+
+            }
+
+            i {
+                margin-left: 0.5rem;
+                text-align: justify;
+                color: #333;
+                font-family: 'Roboto Condensed', sans-serif;
+                font-weight: 900;
+                font-size: 1.5rem;
+            }
+        }
+
+        .gallerywrapper {
+            margin-top: 1rem;
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 1em;
+            width: 100%;
+            margin-bottom: 2em;
+
+            img {
+                width: 100%;
+                filter: grayscale(1);
+                transition: transfrom .2s;
+            }
+
+            img:hover {
+                filter: grayscale(0);
+                transform: scale(1.1);
+            }
+
+
+        }
+    }
+}

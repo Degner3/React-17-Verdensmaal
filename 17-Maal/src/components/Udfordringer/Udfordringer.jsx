@@ -1,15 +1,15 @@
-
+import style from "./Udfordringer.module.scss"
 
 
 export function Udfordringer() {
 
     return (
-        <section>
+        <section className={style.udfordringer}>
             <header>
-                <h2>UDFORDRINGER</h2>
-                <a href="#">Tilbage til top</a>
+                <h3>UDFORDRINGER</h3>
+                <h5><a href="#">Tilbage til top</a></h5>
+                <p>Der er en lang række faktorer der har indvirkning på opfyldelsen af de mål, man gennem aftaler har forpligtiget sig til.</p>
             </header>
-            <p>Der er en lang række faktorer der har indvirkning på opfyldelsen af de mål, man gennem aftaler har forpligtiget sig til.</p>
             <h3>Vækst vs. bæredygtighed.</h3>
             <div>
                 <article>
